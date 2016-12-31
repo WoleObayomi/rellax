@@ -74,7 +74,7 @@
 
     // Now query selector
     else if (document.querySelector(el) !== false) {
-      self.elems = querySelector(el);
+      self.elems = document.querySelector(el);
     }
 
     // The elements don't exist
